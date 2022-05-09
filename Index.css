@@ -1,0 +1,83 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+.merri {
+  color: white;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #cfe2f3;
+  min-height: 150px;
+  width: 45vw;
+  margin: 1.5%;
+  background-color: #278a55;
+
+  background-image: url("Assets/texture.jpg");
+}
+
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 5vw;
+  background-color: #76cba1;
+  background-image: url(assets/Skybox.jpg);
+  width: 75%;
+  color: #cfe2f3;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #cfe2f3;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #23cc4a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.image3 {
+
+  background-image: url("Assets/Forest.jpg");
+  
+}
+   
+
+
+.merri:hover {
+  background-image: url("Assets/lava.jpg");
+}
+
+.beast {
+  background-image: url(Assets/mossCave.jpg);
+ 
+}
+.hunter {
+  background-image: url(Assets/foggyForest.jpg);
+}
+.woodsman {
+  background-image: url(Assets/woods.jpg);
+}
+.cultist {
+  background-image: url(Assets/house.jpg);
+}
